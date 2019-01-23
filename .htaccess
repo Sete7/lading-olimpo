@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^drogariabreves.com.br [NC]
+RewriteRule ^(.*)$ https://www.drogariabreves.com.br/$1 [L,R=301]
